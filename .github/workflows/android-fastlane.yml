@@ -24,9 +24,3 @@ jobs:
 
       - name: Build APK
         run: ./gradlew assembleDebug
-
-      - name: Install Fastlane
-        run: sudo gem install fastlane
-
-      - name: Run Fastlane
-        run: fastlane android beta
